@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es2016",
+            "dom"
+        ],
+        "declaration": true,
+        "outDir": "./dist",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "./src/**/*.ts"
+    ],
+}
