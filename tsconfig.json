@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "module": "commonjs",
         "lib": [
             "es2016",
             "dom"
@@ -8,10 +9,7 @@
         "outDir": "./dist",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "target": "es5",
+        "target": "es6",
         "sourceMap": true
-    },
-    "filesGlob": [
-        "./src/**/*.ts"
-    ],
+    }
 }

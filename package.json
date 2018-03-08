@@ -2,7 +2,7 @@
   "name": "serverless-plugin-manage-cloudwatch",
   "version": "0.0.1",
   "description": "A plugin to manage CloudWatch log groups for / from serverless",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -17,6 +17,11 @@
   "author": "Alex D'Andrea <alex@dandrea.io>",
   "license": "MIT",
   "devDependencies": {
+    "@types/lodash": "^4.14.104",
+    "@types/node": "^9.4.6",
     "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
   }
 }
